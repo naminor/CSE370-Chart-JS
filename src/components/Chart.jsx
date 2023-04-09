@@ -19,7 +19,7 @@ export default function Chart(props) {
                 responsive: 1
             }
         })
-    }, []);
+    }, [props.labels, props.datasets, props.type]);
 
     return (
         <div className="chart">
