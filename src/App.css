@@ -1,0 +1,37 @@
+:root {
+    --text-color: #231942;
+    --accent-color: #5e548e;
+    --bg-color: #f5efff;
+    --cta-color: #56cfe1;
+    --alert-color: #e63947a3;
+}
+
+.html {
+    box-sizing: border-box;
+    color: var(--text-color)
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.main-content {
+    min-height: 100vh;
+    gap: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.login-wrapper {
+    background-color: var(--bg-color);
+    min-height:100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
