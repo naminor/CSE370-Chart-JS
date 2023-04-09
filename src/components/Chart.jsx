@@ -15,11 +15,9 @@ export default function Chart(props) {
                 labels: props.labels,
                 datasets: props.datasets
             },
-            options: {
-                responsive: 1
-            }
+            options: props.options 
         })
-    }, [props.labels, props.datasets, props.type]);
+    }, [props.labels, props.datasets, props.type, props.options]);
 
     return (
         <div className="chart">
